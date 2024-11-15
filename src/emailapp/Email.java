@@ -31,7 +31,7 @@ public class Email {
 	
 	//Ask for department
 	private String setDepartment() {
-		System.out.println("New Employee"+firstName+".Department Code\n1 for Sales\n2 for Development\n3 for accounting\n0 for none\nEnter the department code:");
+		System.out.println("For New Employee "+firstName+"\nSlect his Department Code\n1 for Sales\n2 for Development\n3 for accounting\n0 for none\nEnter the department code:");
 		Scanner sc = new Scanner(System.in);
 		int departmentChoice= sc.nextInt();
 		if(departmentChoice == 1)
